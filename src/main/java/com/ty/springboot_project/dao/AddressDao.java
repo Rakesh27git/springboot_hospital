@@ -39,7 +39,5 @@ public class AddressDao {
 		}
 		return null;
 	}
-	public List<Address> getAllAddress() {
-		return addressRepo.findAll();
-	}
+	
 }
